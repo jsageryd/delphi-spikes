@@ -1,0 +1,14 @@
+__history
+*.cbk
+*.cfg
+*.drc
+*.dres
+*.res
+*.dsk
+*.dsm
+*.identcache
+*.dproj.local
+*.map
+*.tlb
+*.dcu
+*.exe
