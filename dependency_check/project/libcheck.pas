@@ -6,10 +6,10 @@ uses lib;
 
 {$IF Declared(lib_version)}
   {$IF (lib_version <> '1.0.0')}
-    Incompatible lib version.
+    {$MESSAGE Error 'Incompatible lib version'}
   {$IFEND}
 {$ELSE}
-  Lib version undefined.
+  {$MESSAGE Error 'Lib version undefined'}
 {$IFEND}
 
 implementation
