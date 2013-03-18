@@ -1,5 +1,5 @@
 Dependency check
-===================
+================================
 
 This is a spike project to test the idea of checking version
 dependencies between a Delphi project and an external unit at
